@@ -1,0 +1,16 @@
+﻿  ConsoleApplication.cpp
+C:\Users\dhana\source\repos\ConsoleApplication\Methods.h(92,42): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\dhana\source\repos\ConsoleApplication\Methods.h(92,42): message : while calling the constructor 'bsoncxx::v_noabi::view_or_value<bsoncxx::v_noabi::document::view,bsoncxx::v_noabi::document::value>::view_or_value(View)'
+          with
+          [
+              View=bsoncxx::v_noabi::document::view
+          ]
+C:\mongo-cxx-driver\include\bsoncxx\v_noabi\bsoncxx\view_or_value.hpp(60,5): message : see declaration of 'bsoncxx::v_noabi::view_or_value<bsoncxx::v_noabi::document::view,bsoncxx::v_noabi::document::value>::view_or_value'
+C:\Users\dhana\source\repos\ConsoleApplication\Methods.h(138,42): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+C:\Users\dhana\source\repos\ConsoleApplication\Methods.h(138,42): message : while calling the constructor 'bsoncxx::v_noabi::view_or_value<bsoncxx::v_noabi::document::view,bsoncxx::v_noabi::document::value>::view_or_value(View)'
+          with
+          [
+              View=bsoncxx::v_noabi::document::view
+          ]
+C:\mongo-cxx-driver\include\bsoncxx\v_noabi\bsoncxx\view_or_value.hpp(60,5): message : see declaration of 'bsoncxx::v_noabi::view_or_value<bsoncxx::v_noabi::document::view,bsoncxx::v_noabi::document::value>::view_or_value'
+  ConsoleApplication.vcxproj -> C:\Users\dhana\source\repos\ConsoleApplication\x64\Debug\ConsoleApplication.exe
