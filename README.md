@@ -164,7 +164,7 @@ The user can modify any document data by passing invoice number.
    ![update](demo/update.gif)
 
    * **API**
-   ![apiUpdate](demo/update.gif)
+   ![apiUpdate](demo/apiUpdate.gif)
 
 <br/>
 
@@ -174,7 +174,7 @@ Find the hardware using invoice.
    ![search](demo/search.gif)
 
    * **API**
-   ![apiSearch](demo/search.gif)
+   ![apiSearch](demo/apiSearch.gif)
 
 <br/>
 
