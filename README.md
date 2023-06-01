@@ -1,9 +1,16 @@
 # Hardware Record Management System with REST Api
-<!-- REST Api in C++ using Crow &amp; MongoDB -->
 
 <p align="center">
     <img alt="meme for repo" src="demo/images/meme.svg" width="320" />
 </p>
+
+<p align="center" width="100%">
+   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/dhananjaygola/Hardware-Record-Management-System-with-REST-Api?logo=Github">
+   <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/dhananjaygola/Hardware-Record-Management-System-with-REST-Api?logo=Github">
+   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dhananjaygola/Hardware-Record-Management-System-with-REST-Api">
+</p>
+
+Create, remove, update and delete hardware records in MongoDB database using simple REST Api or Console application.
 
 <br/>
 
