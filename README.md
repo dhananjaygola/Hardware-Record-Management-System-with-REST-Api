@@ -10,7 +10,7 @@
    &nbsp;<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dhananjaygola/Hardware-Record-Management-System-with-REST-Api"> 
 </p>
 
-Create, remove, update and delete hardware records in MongoDB database using simple REST Api or Console application.
+Create, remove, update and delete hardware records in MongoDB database using simple REST Api or Console App.
 
 <br/>
 
