@@ -1,5 +1,4 @@
-body { overflow-x: hidden;}
-# Hardware Store Management System with REST Api
+# Hardware Record Management System with REST Api
 <!-- REST Api in C++ using Crow &amp; MongoDB -->
 
 ## Table of Contents
