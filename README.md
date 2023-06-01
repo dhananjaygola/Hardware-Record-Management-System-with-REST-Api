@@ -1,6 +1,12 @@
 # Hardware Record Management System with REST Api
 <!-- REST Api in C++ using Crow &amp; MongoDB -->
 
+<p align="center">
+    <img alt="Click to see the source" src="demo/images/meme.svg" width="320" />
+</p>
+
+<br/>
+
 ## Table of Contents
 
 <!--ts-->
