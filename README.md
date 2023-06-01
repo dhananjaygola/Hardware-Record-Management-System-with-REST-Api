@@ -119,8 +119,8 @@ There is a lot of stuff to understand so that you have the application running o
 <br/>
 
 ### **Run/Debug the project**
-* Clone repository or download directories [ConsoleApplication](ConsoleApplication/) and [RestApi](RestApi/).
-* Open [ConsoleApplication.sln](ConsoleApplication/ConsoleApplication.sln) and [RestApi.sln](RestApi/RestApi.sln) using Visual Studio.
+* Clone repository or download [ConsoleApplication](ConsoleApplication.zip) and [RestApi](RestApi.zip) .zip files.
+* Extract both to open `ConsoleApplication.sln` and `RestApi.sln` using Visual Studio.
 * Run both projects using `Local Windows Debugger`.
 
 <br/>
@@ -135,8 +135,8 @@ There is a lot of stuff to understand so that you have the application running o
 * In the Configuration Properties, go to linker input and add the driver libs in Additional Dependencies section - `C:\mongo-c-driver\lib\bson-1.0.lib;C:\mongo-c-driver\lib\mongoc-1.0.lib;C:\mongo-cxx-driver\lib\bsoncxx.lib;C:\mongo-cxx-driver\lib\mongocxx.lib;%(AdditionalDependencies)`.
 * In the Configuration Properties, go to Debugging and add Environment path to the driver executables - `PATH=C:\mongo-c-driver\bin;C:\mongo-cxx-driver\bin`.
 * Apply changes to the dialog.
-* Replace `ConsoleApplication.cpp` in Source Files with the [`ConsoleApplication.cpp`](ConsoleApplication/ConsoleApplication.cpp) file available in repository.
-* Add header file to the project from the repo [`Methods.h`](ConsoleApplication/Methods.h).
+* Replace `ConsoleApplication.cpp` in Source Files with the same file available in [ConsoleApplication.zip](ConsoleApplication.zip).
+* Add header file to the project from the .zip `Methods.h`.
 * Now debug/run the project to view the final build.
 
 > **Note**
@@ -156,50 +156,52 @@ The functionalities of the project are explained below :
 
 ### **Add / Insert**
 Create a new document into collection.
-   * **Console**
+   * **Console** - Select 1st option
    ![add](demo/add.gif)
 
-   * **API**
+   * **API** - Endpoint : `localhost:18080/api/addNew`
    ![apiAdd](demo/apiAdd.gif)
 
 <br/>
 
 ### **Update**
 The user can modify any document data by passing invoice number.
-   * **Console**
+   * **Console** - Select 2nd option
    ![update](demo/update.gif)
 
-   * **API**
+   * **API** - Endpoint : `localhost:18080/api/update/KEY/VALUE`
+      * KEY : Select key you want to update : `brand` | `dateOfPurchase` | `unitsSold`
+      * VALUE : It should not contain any whitespace.
    ![apiUpdate](demo/apiUpdate.gif)
 
 <br/>
 
 ### **Search**
 Find the hardware using invoice.
-   * **Console**
+   * **Console** - Select 3rd option
    ![search](demo/search.gif)
 
-   * **API**
+   * **API** - Endpoint : `localhost:18080/api/find`
    ![apiSearch](demo/apiSearch.gif)
 
 <br/>
 
 ### **Delete**
 Delete the hardware from collection via invoice.
-   * **Console**
+   * **Console** - Select 4th option
    ![delete](demo/delete.gif)
 
-   * **API**
+   * **API** - Endpoint : `localhost:18080/api/delete`
    ![apiDelete](demo/apiDelete.gif)
 
 <br/>
 
 ### **Print**
 Print all the documents available at once.
-   * **Console**
+   * **Console** - Select 5th option
    ![print](demo/print.gif)
 
-   * **API**
+   * **API** - Endpoint : `localhost:18080/api/hardwares`
    ![apiPrint](demo/apiPrint.gif)
 
 <br/>
