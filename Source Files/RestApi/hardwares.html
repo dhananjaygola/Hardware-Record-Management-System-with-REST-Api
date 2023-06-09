@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hardwares</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+</head>
+<body>
+    <section class="section">
+        <div class="content">
+            <h1 class="title has-text-centered">Hardwares</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="has-text-centered">Product Name</th>
+                        <th class="has-text-centered">Invoice Number</th>
+                        <th class="has-text-centered">Brand</th>
+                        <th class="has-text-centered">Units Sold</th>
+                        <th class="has-text-centered">Date Of Purchase</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#hardwares}}
+                    <tr>
+                        <td class="has-text-centered">{{Product Name}}</td>
+                        <td class="has-text-centered">{{Invoice No}}</td>
+                        <td class="has-text-centered">{{Brand}}</td>
+                        <td class="has-text-centered">{{Units Sold}}</td>
+                        <td class="has-text-centered">{{Date Of Purchase}}</td>
+                    </tr>
+                    {{/hardwares}}
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hardware</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+</head>
+<body>
+    <section class="section">
+        <div class="content">
+            <h1 class="title">Hardware</h1>
+            {{#hardware}}
+            <div>
+                <p>{{Brand}} {{Product Name}} &nbsp;&nbsp;....<b>x{{Units Sold}}</b></p>
+                <p>{{Invoice No}}</p>
+                <p>{{Date Of Purchase}}</p>
+            </div>
+            {{/hardware}}
+        </div>
+    </section>
+</body>
+</html>
