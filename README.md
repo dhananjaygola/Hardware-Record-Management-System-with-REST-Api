@@ -142,8 +142,8 @@ There is a lot of stuff to understand so that you have the application running o
 * In the Configuration Properties, go to linker input and add the driver libs in Additional Dependencies section - `C:\mongo-c-driver\lib\bson-1.0.lib;C:\mongo-c-driver\lib\mongoc-1.0.lib;C:\mongo-cxx-driver\lib\bsoncxx.lib;C:\mongo-cxx-driver\lib\mongocxx.lib;%(AdditionalDependencies)`.
 * In the Configuration Properties, go to Debugging and add Environment path to the driver executables - `PATH=C:\mongo-c-driver\bin;C:\mongo-cxx-driver\bin`.
 * Apply changes to the dialog.
-* Replace `ConsoleApplication.cpp` in Source Files with the same file available in [ConsoleApplication.zip](ConsoleApplication.zip).
-* Add header file to the project from the .zip `Methods.h`.
+* Add `ConsoleApplication.cpp` to project with the same file available in repository [`ConsoleApplication.cpp`](Source%20Files/ConsoleApplication/ConsoleApplication.cpp).
+* Add header file to the project from the repository [`Methods.h`](Source%20Files/ConsoleApplication/Methods.h).
 * Now debug/run the project to view the final build.
 
 > **Note**
@@ -179,6 +179,7 @@ The user can modify any document data by passing invoice number.
    * **API** - Endpoint : `localhost:18080/api/update/KEY/VALUE`
       * KEY : Select key you want to update : `brand` | `dateOfPurchase` | `unitsSold`
       * VALUE : It should not contain any whitespace.
+   
    ![apiUpdate](demo/apiUpdate.gif)
 
 <br/>
