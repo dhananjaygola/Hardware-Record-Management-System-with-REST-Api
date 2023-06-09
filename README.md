@@ -179,8 +179,7 @@ The user can modify any document data by passing invoice number.
    * **API** - Endpoint : `localhost:18080/api/update/KEY/VALUE`
       * KEY : Select key you want to update : `brand` | `dateOfPurchase` | `unitsSold`
       * VALUE : It should not contain any whitespace.
-   
-   ![apiUpdate](demo/apiUpdate.gif)
+![apiUpdate](demo/apiUpdate.gif)
 
 <br/>
 
