@@ -5,12 +5,14 @@
 </p>
 
 <p align="center" width="100%">
-   &nbsp;<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/dhananjaygola/Hardware-Record-Management-System-with-REST-Api?logo=Github"> 
+   &nbsp;<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/dhananjaygola/Hardware-Record-Management-System-with-REST-Api?style=flat&logo=github&label=repo%20size&color=%232ac930">       
    &nbsp;<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/dhananjaygola/Hardware-Record-Management-System-with-REST-Api?logo=Github"> 
    &nbsp;<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dhananjaygola/Hardware-Record-Management-System-with-REST-Api"> 
+   &nbsp;<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dhananjaygola/Hardware-Record-Management-System-with-REST-Api?style=flat&logo=cplusplus&label=c%2B%2B&color=%2337affa"> 
+   &nbsp;<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/dhananjaygola/Hardware-Record-Management-System-with-REST-Api?style=flat&logo=visualstudio&label=code%20size"> 
 </p>
 
-Create, remove, update and delete hardware records in MongoDB database using simple REST Api or Console App.
+Create, search, update and delete hardware records in MongoDB database using simple REST Api or Console App.
 
 <br/>
 
@@ -28,7 +30,7 @@ Create, remove, update and delete hardware records in MongoDB database using sim
       * [Run/Debug the project](#rundebug-the-project)
       * [Create from scratch](#create-from-scratch)
       * [Method to input data](#method-to-input-data)
-   * [**How to use the project**](#how-to-use-the-project)
+   * [**How to use the project**](#how-to-use-the-project) :red_circle: **Demo**:white_check_mark:
       * [Add / Insert a new record (document)](#add--insert)
       * [Update an existing document](#update)
       * [Search using invoice number](#search)
