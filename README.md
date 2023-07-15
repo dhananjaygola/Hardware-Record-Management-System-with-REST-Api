@@ -1,8 +1,8 @@
 # Hardware Record Management System with REST Api
 
-<p align="center">
+<!-- <p align="center">
     <img alt="meme for repo" src="demo/images/meme.svg" width="320" />
-</p>
+</p> -->
 
 <p align="center" width="100%">
    &nbsp;<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/dhananjaygola/Hardware-Record-Management-System-with-REST-Api?style=flat&logo=github&label=repo%20size&color=%232ac930">       
